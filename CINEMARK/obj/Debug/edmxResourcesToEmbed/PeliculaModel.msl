@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cinemarkModelStoreContainer" CdmEntityContainer="cinemarkEntities">
+    <EntitySetMapping Name="peliculasTables">
+      <EntityTypeMapping TypeName="cinemarkModel.peliculasTable">
+        <MappingFragment StoreEntitySet="peliculasTable">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="sinopsis" ColumnName="sinopsis" />
+          <ScalarProperty Name="director" ColumnName="director" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="imagen" ColumnName="imagen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
